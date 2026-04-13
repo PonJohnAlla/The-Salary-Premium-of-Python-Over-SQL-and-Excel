@@ -84,7 +84,7 @@ if page.startswith("🏠"):
     
     st.markdown(
             """
-            **Created by** David Ken, Luis Cabugos, Matthew Joaquin, Beau Nieve, Pon John Alla
+            **Created by** Pon John Alla, Luis Cabugos, David Ken Del Mundo, Matthew Joaquin, Beau Nieve
             """
         )
 
