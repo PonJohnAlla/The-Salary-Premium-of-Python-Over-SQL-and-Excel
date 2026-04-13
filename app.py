@@ -72,8 +72,8 @@ if page.startswith("🏠"):
         <div class="hero-banner">
           <h1>🔰 The Salary Premium of Python over SQL and Excel</h1>
           <p>
-            As part of a sprint project for Eskwelabs Data Analytics Bootcamp our team
-            did a labor research on the data analst field. The study conducted looked 
+            As part of a sprint project for Eskwelabs Data Analytics Bootcamp, our team
+            did a labor research on the data analyst field. The study conducted looked 
             at the increasing skill demand needed by career shifting or well-established
             data analysts. 
           </p>
@@ -84,7 +84,7 @@ if page.startswith("🏠"):
     
     st.markdown(
             """
-            **Created by** Pon John Alla, Luis Cabugos, David Ken Del Mundo, Matthew Joaquin, Beau Nieve
+            **Created by** Group 1 (Pon John Alla, Luis Cabugos, David Ken Del Mundo, Matthew Joaquin, Beau Nieve)
             """
         )
 
