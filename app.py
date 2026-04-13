@@ -84,7 +84,7 @@ if page.startswith("🏠"):
     
     st.markdown(
             """
-            **Created by** Group 1 (Pon John Alla, Luis Cabugos, David Ken Del Mundo, Matthew Joaquin, Beau Nieve)
+            **Created by** Group 1 (Pon John Alla, Luis Cabugos Jr., David Ken Del Mundo, Matthew Joaquin, Beau Nieve)
             """
         )
 
