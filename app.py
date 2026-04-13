@@ -54,11 +54,12 @@ with st.sidebar:
         label_visibility="collapsed",
     )
     st.divider()
-    st.markdown(
-        '<p style="color:#8b949e;font-size:0.72rem;">Research by Group 1 · 2024
-        <br>''Data: Glassdoor via Kaggle</p>',
-        unsafe_allow_html=True,
-    )
+    st.markdown("""
+    <p style="color:#8b949e;font-size:0.72rem;">
+    Research by Group 1 · 2024<br>
+    Data: Glassdoor via Kaggle
+    </p>
+    """, unsafe_allow_html=True)
 
 
 # ═══════════════════════════════════════════════════════════════════
