@@ -55,7 +55,7 @@ def parse_salary(salary_str: str) -> float:
 
 
 def load_and_clean(path: str) -> pd.DataFrame:
-    df = pd.read_csv(path)
+    df = pd.read_csv(path, encoding="latin1", on_bad_lines="skip")
     df["Avg Salary"] = df["Salary Estimate"].apply(parse_salary)
     df = df.dropna(subset=["Avg Salary"])
     return df
