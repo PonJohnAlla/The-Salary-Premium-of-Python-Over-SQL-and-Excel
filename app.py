@@ -263,9 +263,9 @@ elif page.startswith("🔍"):
     st.markdown("### Tool Mention Frequency")
     sdf = h.skill_mention_pct(df)
 
-    c_py  = int(sdf[sdf["Skill"] == "Python"]["Mentions"])
-    c_sql = int(sdf[sdf["Skill"] == "Sql"]["Mentions"])
-    c_xl  = int(sdf[sdf["Skill"] == "Excel"]["Mentions"])
+    c_py  = int(sdf[sdf["Skill"] == "Python"]["Mentions"].iloc[0]))
+    c_sql = int(sdf[sdf["Skill"] == "Sql"]["Mentions"].iloc[0]))
+    c_xl  = int(sdf[sdf["Skill"] == "Excel"]["Mentions"].iloc[0]))
 
     m1, m2, m3 = st.columns(3)
     m1.metric("Python mentions", f"{c_py:,}",  f"{c_py/len(df)*100:.1f}% of postings")
